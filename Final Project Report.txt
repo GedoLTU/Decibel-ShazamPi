@@ -22,4 +22,4 @@ Machine Learning
 
 Currently our audio detector relies on Shazam API via RapidAPI for song recognition which works well but integrating machine learning will improve recognition accuracy in noisy areas and reduce API dependency, reducing rate limits and costs.  
 
- 
+ (This was wrote by josh harrison i made a mistake in the google drive of pasting the initial project link)
