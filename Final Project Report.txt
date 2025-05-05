@@ -1,25 +1,21 @@
  
 
-Internet Functionality 
+Internet Functionality: 
 
- 
 
-We plan to implement a data logging aspect to our project, to log detected songs, album covers and artists. The way we could implement this is by using Google Sheets API. We could also implement a more attractive web UI to display a history of songs album covers. This is achieved by using the Flask API.  
+We plan to implement a data logging aspect to our project, to log detected songs, album covers and artists. The way we could implement this is by using Google Sheets API. 
+We could also implement a more attractive web UI to display a history of songs album covers. This is achieved by using the Flask API.  
 
- 
+Secondary Research:
 
-Secondary Research 
-
- 
 
 Dejavu is an open-source python ‘audio fingerprinting and recognition algorithm’. Dejavu memorizes audio by listening to a song once and fingerprinting it using algorithms to analyse audio features, creating a unique digital signature for each piece of audio content, in this case it being songs. Shazam is the most popular mobile app used to identify music, Shazam also uses audio fingerprinting to compare a short recording using your phone's microphone and comparing it to a database of known songs. We use Shazam Api via RapidAPI in our code. 
 
  
+Machine Learning:
 
-Machine Learning 
 
- 
+Currently our audio detector relies on Shazam API via RapidAPI for song recognition which works well but integrating machine learning will improve recognition accuracy in noisy areas and reduce API dependency, 
+reducing rate limits and costs.  
 
-Currently our audio detector relies on Shazam API via RapidAPI for song recognition which works well but integrating machine learning will improve recognition accuracy in noisy areas and reduce API dependency, reducing rate limits and costs.  
-
- (This was wrote by josh harrison i made a mistake in the google drive of pasting the initial project link)
+(This was wrote by josh harrison i made a mistake in the google drive of pasting the initial project link)
